@@ -4,7 +4,7 @@ Cerbero is a Python-based packaging system for downloading, compiling, installin
 
 The first step is to fetch the latest Cerbero from git:
 
-    $ git clone http://anongit.freedesktop.org/git/gstreamer/sdk/cerbero.git cerbero.git
+    $ git clone git://anongit.freedesktop.org/gstreamer/cerbero cerbero.git
     $ cd cerbero.git
 
 By default, this will build the latest git version of GStreamer. If you want to, for example, build the 1.8 stable release, you can checkout the `1.8` branch like so:
