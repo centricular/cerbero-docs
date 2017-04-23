@@ -4,20 +4,20 @@ Cerbero is a Python-based packaging system for downloading, compiling, installin
 
 The first step is to fetch the latest Cerbero from git:
 
-    $ git clone git://anongit.freedesktop.org/gstreamer/cerbero cerbero.git
+    $ git clone https://github.com/centricular/cerbero.git cerbero.git
     $ cd cerbero.git
 
-By default, this will build the latest git version of GStreamer. If you want to, for example, build the 1.8 stable release, you can checkout the `1.8` branch like so:
+By default, this will checkout the `meson-1.10` branch, you can checkout the `meson-1.8` branch like so:
 
-    $ git checkout 1.8
+    $ git checkout meson-1.8
 
 If you have multiple remotes, you will need to specify the pathspec and the branch name explicitly:
 
-    $ git checkout -b 1.8 origin/1.8
+    $ git checkout -b meson-1.8 origin/meson-1.8
     
 You can switch back by doing:
 
-    $ git checkout master
+    $ git checkout meson-1.10
 
 And so on.
 
